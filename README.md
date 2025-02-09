@@ -1,8 +1,11 @@
 # Simulation of the Cart-Pole System Model
 
-I developed a model of the Cart-Pole system using Simulink and Simscape Multibody in MATLAB. For the optimization task, I utilized **CasADi** (available at [CasADi](https://web.casadi.org/)) to solve the nonlinear optimization problem. Here is the cart-pole dynamics in simulink:
+I developed a model of the Cart-Pole system using **Simulink** and **Simscape Multibody** in MATLAB. For the optimization task, I utilized **CasADi** (available at [CasADi](https://web.casadi.org/)) to solve the nonlinear optimization problem. Here is the cart-pole dynamics in simulink:
 
-<div align = center>![cart-pole dynamics](https://github.com/user-attachments/assets/9c9b9ef4-2e98-47c5-8dff-dc6c3cbfdfd9)
+<div align = center>
+  
+![cart-pole dynamics](https://github.com/user-attachments/assets/7ef2943b-2216-4eb0-badc-5b4b056558fd)
+
 
 In terms of control, I employed both **Linear Quadratic Regulator (LQR)** and **Nonlinear Model Predictive Control (NMPC)** strategies. The first video demonstrates the system's behavior for an initial pivot angle of $q_0 = 35^\circ$. This simulation took a considerable amount of time to generate.
 
