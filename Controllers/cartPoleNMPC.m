@@ -1,5 +1,5 @@
 function Fx = cartPoleNMPC(states)
-%"C:\Users\Aleksander\Documents\MATLAB\Controllers\casadi-3.6.7-windows64-matlab2018b"
+
 tic
 import casadi.*
 %% states:
